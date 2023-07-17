@@ -4,7 +4,7 @@ public class SecondLargestAndSmallestElementInAnArrayWithoutSortingOptimal {
 
 
     public static void main(String[] args) {
-        int[] arr = {5,6,2,11,10,88,91,91,88};
+        int[] arr = {5,6,2,3,10,88,91,91,88};
         int secondLargest = secondLargestElementInAnArrayWithoutSorting(arr);
         int secondsmallest = secondSmallestElementInAnArrayWithoutSorting(arr);
         System.out.println("Second largest without sorting "+secondLargest);

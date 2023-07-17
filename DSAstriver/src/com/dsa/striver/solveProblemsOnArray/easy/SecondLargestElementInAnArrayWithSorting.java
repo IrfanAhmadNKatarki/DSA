@@ -21,6 +21,7 @@ public class SecondLargestElementInAnArrayWithSorting {
         System.out.println("The second Largest element is "+secondLargest);
     }
 
+    //SelectionSort
     private static void sortTheArray(int[] arr,int low, int high) {
         for (int i = 0; i < arr.length; i++) {
              int small = arr[i];

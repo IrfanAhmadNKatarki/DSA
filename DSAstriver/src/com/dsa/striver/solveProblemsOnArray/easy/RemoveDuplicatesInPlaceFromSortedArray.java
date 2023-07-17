@@ -2,7 +2,7 @@ package com.dsa.striver.solveProblemsOnArray.easy;
 
 import java.util.HashSet;
 import java.util.Set;
-
+//Brute Force Apprpach
 public class RemoveDuplicatesInPlaceFromSortedArray {
 
     public static void main(String[] args) {
