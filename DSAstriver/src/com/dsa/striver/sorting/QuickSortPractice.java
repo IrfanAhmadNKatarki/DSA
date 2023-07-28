@@ -48,7 +48,7 @@ public class QuickSortPractice {
 
         }
 
-    private static void swaps(int[] arr, int i, int j) {
+    public static void swaps(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

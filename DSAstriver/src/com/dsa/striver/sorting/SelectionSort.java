@@ -8,7 +8,7 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
-        int[] arr = {86,54,33,22,78,90,521};
+        int[] arr ={1,4,2,5,6,2,9,9,5};
 
         for (int i = 0; i < arr.length ; i++) {
             System.out.print(arr[i]+" ");
@@ -23,9 +23,9 @@ public class SelectionSort {
     }
 
     private static void selectionSort(int[] arr) {
-        for(int i = 0; i <= arr.length - 3; i++){
+        for(int i = 0; i <= arr.length - 1; i++){
                 int minIndex = i;
-            for (int j = i; j <= arr.length - 2; j++) {
+            for (int j = i; j <= arr.length - 1; j++) {
                 if(arr[j] < arr[minIndex]){
                     minIndex = j;
 
