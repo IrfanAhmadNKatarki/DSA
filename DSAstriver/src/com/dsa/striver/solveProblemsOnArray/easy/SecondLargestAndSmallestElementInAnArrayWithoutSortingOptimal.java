@@ -37,7 +37,7 @@ public class SecondLargestAndSmallestElementInAnArrayWithoutSortingOptimal {
         for (int i = 1; i < arr.length; i++) {
             if(arr[i] > first){
                 sec = first;
-                first = arr[i];
+                first= arr[i];
             }
             else if(first < arr[i] && arr[i] > sec){
                 sec = arr[i];

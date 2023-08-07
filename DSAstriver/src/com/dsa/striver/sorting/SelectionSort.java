@@ -1,8 +1,6 @@
 package com.dsa.striver.sorting;
 
 
-import org.w3c.dom.ls.LSOutput;
-
 public class SelectionSort {
 
 
