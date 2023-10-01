@@ -1,4 +1,4 @@
-package com.dsa.striver.dsa.rev1;
+package com.dsa.striver.dsa.rev1.arrayeasy;
 
 
 import static com.dsa.striver.sorting.QuickSortPractice.swaps;

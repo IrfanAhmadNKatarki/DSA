@@ -1,4 +1,4 @@
-package com.dsa.striver.dsa.rev1;
+package com.dsa.striver.dsa.rev1.arrayeasy;
 
 /**
  * @author Irfan.Katarki on 28-07-2023

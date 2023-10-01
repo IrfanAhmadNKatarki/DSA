@@ -7,11 +7,6 @@ import java.sql.SQLOutput;
  * @project DontOpen
  */
 
-/**
- *
- *
- *
- */
 public class UnderstandRecursionByPrintSomething {
     public static void main(String[] args) {
        int n = 5;

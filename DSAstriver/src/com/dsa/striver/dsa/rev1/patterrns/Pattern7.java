@@ -1,6 +1,6 @@
 package com.dsa.striver.dsa.rev1.patterrns;
 
-public class Pattern5 {
+public class Pattern7 {
 
     public static void main(String[] args) {
         int n = 5;

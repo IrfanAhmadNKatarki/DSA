@@ -1,15 +1,20 @@
 
 import java.util.*;
 
-public class Main {
+public class MaSSin {
     public static void sortArray(ArrayList<Integer> arr, int n) {
         int cnt0 = 0, cnt1 = 0, cnt2 = 0;
 
+        Map<Integer, Integer> mpp = new HashMap<>();
         for (int i = 0; i < n; i++) {
             if (arr.get(i) == 0) cnt0++;
             else if (arr.get(i) == 1) cnt1++;
             else cnt2++;
         }
+
+        Map<Integer, Integer> mpp = new HashMap<>();
+
+        mpp.get
 
         //Replace the places in the original array:
         for (int i = 0; i < cnt0; i++) arr.set(i, 0); // replacing 0's

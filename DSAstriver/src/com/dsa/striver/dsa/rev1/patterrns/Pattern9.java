@@ -1,2 +1,38 @@
-package com.dsa.striver.dsa.rev1.patterrns;public class Pattern9 {
+package com.dsa.striver.dsa.rev1.patterrns;
+
+public class Pattern9 {
+
+    public static void main(String[] args) {
+        int n = 5;
+        int nsp =  n -1;
+        int nst = 1;
+
+        pattern9(n,nsp,nst);
+    }
+    private static void pattern9(int n, int nsp, int nst) {
+
+        for (int i = 1; i <= 2 * n; i++) {
+            for (int j = 1; j <= nsp; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= nst; j++) {
+                System.out.print("*");
+            }
+
+            if(i < n){
+                nst+=2;
+                nsp--;
+            }
+            else if(i == n){
+                System.out.println();
+                continue;
+            }
+            else{
+                nsp++;
+                nst-=2;
+            }
+           System.out.println();
+
+        }
+    }
 }
